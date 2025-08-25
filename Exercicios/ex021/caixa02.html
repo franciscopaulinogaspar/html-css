@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+          
+        }
+        nav{
+            background-color: lightslategray;
+            padding: 1px;
+            box-shadow: 2px 2px 2px black;
+        }
+        nav > a{
+            text-decoration: none;
+           color:brown;
+           font-weight: bold;
+           margin-right: 15px;
+         
+        }
+        nav > a:hover {
+            color: white;
+
+        }
+        article{
+            background-color: rgb(230, 230, 230);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(134, 134, 134);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 4px 4px 10px 0px black;
+
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        footer > p{
+            margin: 0%;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="ddd">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+         <section id="assuntos">
+            <h2>Noticias de Africa</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto vel a earum, neque modi, qui laudantium odit molestiae cupiditate, maiores saepe nemo fugiat commodi placeat recusandae accusamus sed dolores nulla?</p>
+         </section>
+         <section id="noticias">
+            <article>
+                <h2>Noticia sobre Angola</h2>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde est dolorum ipsa consequatur iste harum obcaecati possimus beatae ad voluptates voluptate voluptas nesciunt corporis officia sequi iusto ratione, eos neque!
+                </P>
+                <aside>
+                    <p>Artigo escrito por Francisco Gaspar</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+         </section>   
+    </main>
+    <footer>
+        <p>Desenvolvido por Francisco Gaspar</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
